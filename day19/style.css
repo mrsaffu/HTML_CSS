@@ -1,0 +1,56 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+section{
+    font-size: 400px;
+    animation-name: heart;
+    animation-timing-function: linear ;
+    animation-duration: 1s;
+    animation-iteration-count:infinite ;
+    animation-direction: alternate;
+}
+
+@keyframes heart{
+    form{
+        font-size: 400px;
+
+    }
+    to{
+        font-size: 500px;
+
+    }
+}
+
+section{
+    border:40px solid red;
+    border-top: 40px solid yellow;
+    border-right: 40px solid gray;
+    border-left: 40px solid green;
+    border-bottom: 40px solid brown;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+
+    animation-name: circle;
+    animation-timing-function: linear ;
+    animation-duration: 01.s;
+    animation-iteration-count:infinite ;
+    animation-direction: alternate;
+    animation-delay: 0s;
+
+}
+
+@keyframes circle{
+    form{
+        transform: rotate(0deg);
+
+    }
+    to{
+        transform: rotate(360deg);
+
+    }
+}

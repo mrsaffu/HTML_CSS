@@ -1,0 +1,53 @@
+/* p{
+    color: red;
+    text-align: left;
+    text-align: right;
+    text-align: center;
+    text-transform: capitalize;
+    text-transform: lowercase;
+    text-transform: uppercase;
+
+    text-shadow: 2px 2px greenyellow;
+    text-shadow: 1px 1px 3px black;
+    text-decoration: underline;
+    text-decoration: overline;
+    text-decoration: line-through;
+    text-decoration: underline overline line-through;
+
+    letter-spacing: 10px;
+    word-spacing: 2px;
+    text-indent: 3px;
+
+} */
+
+ /* div{ 
+    /* border: 2px solid red;
+    width: 50px;
+    /* text-wrap: nowrap; */
+    /* overflow: hidden; */
+    /* overflow: scroll;
+    text-overflow: clip;
+    text-overflow: ellipsis; */
+
+    /* border: 2px solid brown;
+    /* width: 150px; */
+    /* height: 150px;
+    background-image: url("./mypic.jpg")
+    background-repeat : no-repeat; */
+
+    /* border: 2px solid red;
+    height: 500px;
+    width: 500px;
+    min-height: 100px;
+    min-width: 100px;
+    max-height: 600px;
+    max-width: 600px;
+     */
+ /* } */
+
+ /* div{
+    font-size: 50px;
+    font-weight: bold;
+
+    font-family: ;
+ } */

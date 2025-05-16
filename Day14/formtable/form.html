@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./formTable.css">
+    <link rel="stylesheet" href="form.html">
+</head>
+
+<body>
+    <form action="" method="get">
+
+        <div>
+            <h1>pete's pizza delivery</h1>
+            <h3>online order form</h3>
+        </div>
+
+        <table align="center">
+            <tr>
+                <td align="right"><label for="firstname">*Name:&nbsp;</label></td>
+                <td align="right"><input type="text" id="firstname" required></td>
+
+                <td align="right"><label for="telnumber">*Tel:&nbsp;</label></td>
+                <td align="right"><input type="tel" id="telnumber" required></td>
+            </tr>
+
+            <tr>
+                <td align="right"><label for="address">*Address:&nbsp;</label></td>
+                <td align="right"><input type="text" id="address" required></td>
+
+                <td align="right"><label for="email">*Email:&nbsp;</label></td>
+                <td align="right"><input type="email" id="email" required></td>
+            </tr>
+
+            <tr>
+                <td align="right"><label for="townCity">*Town City:&nbsp;</label></td>
+                <td align="right"><input type="text" id="townCity" required></td>
+            </tr>
+
+            <tr>
+                <td align="right"><label for="postCode">*PostCode:&nbsp;</label></td>
+                <td align="right"><input type="text" id="postCode" required></td>
+            </tr>
+        </table>
+
+        <h4>* required fields</h4>
+
+        <table align="center">
+            <tr cellspacing="20px">
+                <th><h2>Topping</h2></th>
+                <th><h2>Size</h2></th>
+                <th><h2>Extras</h2></th>
+            </tr>
+
+            <tr>
+                <td>
+                    <ul>
+                        <li type="none"><input type="radio" name="topping" value="Margherita">Margherita</li>
+                        <li type="none"><input type="radio" name="topping" value="Four seasons">Four seasons</li>
+                        <li type="none"><input type="radio" name="topping" value="Meat feast">Meat feast</li>
+                    </ul>
+
+                </td>
+
+                <td>
+                    <ul>
+                        <li type="none"><input type="radio" name="size" value="small">Small</li>
+                        <li type="none"><input type="radio" name="size" value="medium">Medium</li>
+                        <li type="none"><input type="radio" name="size" value="large">Large</li>
+                    </ul>
+                </td>
+
+                <td>
+                    <ul type="none">
+                        <li > <input type="checkbox" name="extras" value="mushrooms" id="mushrooms"><label for="mushrooms">Mushrooms</label></li>
+                        <li> <input type="checkbox" name="extras" value="green peppers"><label>Green peppers</label></li>
+                        <li> <input type="checkbox" name="extras" value="anchovies"><label>Anchovies</label></li>
+                        <li> <input type="checkbox" name="extras" value="extras"><label>Extras</label></li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+
+        <table align="center">
+            <tr>
+                <td align="right"><label for="time">Preferred delivery time:&nbsp;</label></td>
+                <td><input type="time" id="time"></td>
+            </tr>
+            <tr>
+                <td align="right" valign="top"><label for="instructions">Delivery instructions:&nbsp;</label></td>
+                <td><textarea type="text"></textarea></td>
+            </tr>
+        </table>
+
+        <div>
+            <button type="submit">Submit order</button>
+        </div>
+
+        <div id="divBorder">
+
+        </div>
+        
+    </form>
+</body>
+
+</html>

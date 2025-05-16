@@ -1,0 +1,22 @@
+/* Id Sector  */
+    #head{
+    background-color : yellow;
+    color: aqua;
+    }
+/* Head sector */
+    .head1{
+        background-color: red;
+        color: brown;
+    }
+
+    /* Tag sector */
+     /* div{ 
+        background-color: aqua;
+        color: antiquewhite;
+    } */
+
+    /* Groping sector  */
+    h2,div,aside,section{
+        background-color: brown;
+        color: aqua;
+    }

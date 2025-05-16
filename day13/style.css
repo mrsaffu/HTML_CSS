@@ -1,0 +1,86 @@
+/* Description selector */
+section div h1 a{
+    text-decoration: none;
+}
+
+
+/* Child slector */
+
+section>div>h1{
+    color: rgb(243, 146, 19);
+}
+
+/* Adjacent sibling slector  */
+
+section+p{
+color: red;
+}
+
+/* General sibling  */
+section~p{
+    color: aqua;
+}
+
+
+/* Attributes selector */
+/* h1[id]{
+    background-color: yellow;
+    color: white;
+} */
+
+
+h1[id="head"]{
+    background-color: brown;
+    color: yellow;
+    font-size: 20px;
+}
+
+
+/* Pseudo attributes selector */
+
+a:link{
+    color: hotpink;
+}
+
+a:visited{
+    color: green;
+}
+
+a:hover{
+    color: orange;
+}
+
+a:active{
+    color: black;
+}
+
+
+/* Pseudo Element selector */
+
+p::first-letter{
+    color: black;
+    font-size: 100px
+}
+
+p::first-line{
+    color: red;
+    font-size: 30px;
+}
+
+p::before{
+    content: "Html";
+}
+
+p::after{
+    content: "EnD";
+}
+
+p::selection{
+    color: yellowgreen;
+    background-color: blue;
+}
+
+::marker{
+    color: rgb(28, 183, 123);
+    font-size: 40px;
+}

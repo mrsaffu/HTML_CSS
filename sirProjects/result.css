@@ -1,0 +1,267 @@
+body{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+section{
+    /* border: 2px solid red; */
+    background-color: aliceblue;
+    height: 80%;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.card1{
+    
+    border-radius: 5%;
+    background-color: rgb(91 62 250);
+    height: 95%;
+    width: 45%;
+    display: flex;
+    /* justify-content: space-around; */
+    justify-items: center;
+    flex-direction: column;
+}
+.top{
+    /* border: 2px solid black; */
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+.top h1{
+    font-size: 30px;
+    text-decoration: none;
+    /* text-align: start; */
+    color: white;
+}
+
+.middle{
+    /* border: 2px solid green; */
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.radus{
+    /* border: 2px solid yellow; */
+    border-radius: 50%;
+    
+    background-color: rgb(72 39 208);
+    height: 200px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top:40px;
+}
+
+.hed1{
+   font-size: 55px; 
+   /* text-align: 85px; */
+   text-decoration: none;
+   color: white;
+  
+} 
+ .hed2{
+    font-size: 15px;
+    /* text-align: end; */
+   color: white;
+
+}
+    
+.bottom{
+    /* border: 2px solid brown; */
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+    margin-top:55px;
+}
+.bhead1{
+    /* border: 2px solid rgb(11, 2, 2); */
+    height: 35%;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.bhead1 h1{
+    /* text-align: center; */
+    font-size: 30px;
+    text-decoration: none;
+   color: white;
+
+}
+
+.bhead2{
+    /* border: 2px solid rgb(9, 234, 170); */
+    height: 50%;
+    width: 90%;
+   
+
+}
+
+.bhead2 p{
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 2pt;
+   color: white;
+
+}
+
+.card2{
+    /* border: 2px solid blue; */
+    background-color: white;
+    box-shadow: 3px 3px 3px  grey;
+    border-radius: 5%;
+    /* background-color: blue; */
+    height: 95%;
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: none;
+}
+.crd2cont{
+    /* border: 2px solid black; */
+    height: 90%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color:white;
+}
+.top1{
+    /* border: 2px solid rgb(12, 239, 31); */
+    height: 19%;
+    width: 95%;    
+}
+.top1 h1{
+    font-size: 30px;
+    text-align: start;
+}
+.middle1{
+    /* border: 2px solid rgb(226, 11, 169); */
+    height: 60%;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;   
+}
+
+.log{
+    /* border: 2px solid  black; */
+    border-radius: 10px;
+    background-color: rgb(245, 225, 223);
+    /* box-shadow: 3px 3px 3px  grey; */
+
+    height: 20%;
+    width: inherit; 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    gap: 2px;
+}
+.emog{
+  /* border: 2px solid red; */
+  width: 15%;
+  height: 96%;  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.emog i{
+    font-size: 25px;
+}
+.eheader{
+    /* border: 2px solid brown; */
+    width: 60%;
+    height: 96%;
+}
+.eheader h1{
+    font-size: 20px;
+    text-align: start;
+    text-decoration: none;
+    /* color: red; */
+}
+.c1{
+    color: red;
+}
+#c1{
+    color: red;
+}
+.c2{
+    color: hotpink;
+}
+#c2{
+    color: hotpink;
+}
+.c3{
+    color: green;
+}
+#c3{
+    color:green;
+}
+.c4{
+    color: rgb(76, 0, 255);
+}
+#c4{
+    columns: rgb(109, 25, 218);
+}
+.mark{
+    /* border: 2px solid brown; */
+    width: 30%;
+    height: 96%;
+
+}
+.mark h1{
+    font-size: 20px;
+    text-align: start;
+    text-decoration: none;
+
+}
+.bottom1{
+    /* border: 2px solid rgb(96, 19, 220); */
+    height: 19%;
+    width: 95%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.buton{
+    /* border: 2px solid  black; */
+    height: 80%;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buton button{
+    /* border: 2px solid black; */
+    background-color: black;
+    border-radius: 20px;
+    height: 45px;
+    width: inherit;
+    font-size: 10px
+
+}
+button h1{
+    color: white;
+}
+
+
+

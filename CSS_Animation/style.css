@@ -1,0 +1,128 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  border: 20px solid gray;
+  /* box-sizing: border-box; */
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(205, 205, 188);
+  display: flex;
+  flex-direction: column;
+}
+.boxtop {
+  margin-top: 5px;
+  height: 100px;
+  width: 250px;
+  background-color: blueviolet;
+  border-radius: 10px;
+  position: relative;
+  animation-name: rightmove;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  /* animation-fill-mode: alternate; */
+  animation-direction: alternate;
+}
+
+@keyframes rightmove {
+  from {
+    top: 0;
+    left: 0;
+  }
+  to {
+    top: 0;
+    left: 1200px;
+  }
+}
+
+.boxbottom {
+  margin-top: 5px;
+  height: 100px;
+  width: 250px;
+  background-color: blueviolet;
+  border-radius: 10px;
+  /* name duration timing-function delay iteration-count direction fill-mode; */
+  /* animation: bottommove 5s 1s 0 infinite reverse; */
+  animation-name: bottommove;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  /* animation-fill-mode: alternate; */
+  animation-direction: alternate-reverse;
+  position: relative;
+  /* text-align: end; */
+}
+
+@keyframes bottommove {
+  from {
+    top: 330px;
+    left: 0;
+  }
+  to {
+    top: 350px;
+    left: 1200px;
+  }
+}
+
+.circle {
+  /* border: 15px solid blueviolet; */
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  background-color: blueviolet;
+  position: relative;
+
+  animation: 10s ease-in-out 0s infinite alternate-reverse none running circle;
+}
+
+@keyframes circle {
+  0% {
+    top: 1%;
+    left: 5%;
+  }
+
+  30% {
+    top: 5%;
+    left: 90%;
+  }
+  60% {
+    top: 55%;
+    left: 10%;
+  }
+  100% {
+    top: 59%;
+    left: 90%;
+  }
+}
+.circle1 {
+  /* border: 15px solid rgb(137, 66, 204); */
+  /* align-self: center; */
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  background-color: rgb(51, 51, 240);
+  position: relative;
+
+  animation: 10s cubic-bezier(0.8, -0.29, 1, 1) 0s infinite alternate-reverse
+    none running circle1;
+}
+@keyframes circle1 {
+  0% {
+    top: 49%;
+    left: 50%;
+  }
+
+  30% {
+    top: 55%;
+    left: 10%;
+  }
+  60% {
+    top: 5%;
+    left: 40%;
+  }
+  100% {
+    top: 10%;
+    left: 5%;
+  }
+}

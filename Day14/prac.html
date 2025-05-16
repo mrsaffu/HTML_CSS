@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="prac.css">
+</head>
+<body>
+
+    <h1>Pete's Pizza Delivery </h1>
+    <h2>Online order Form </h2>
+    
+
+    <form action="">
+        <div class="first">
+            <div class="input">
+                <label for="name">*Name</label>
+                <input class="input1"  type="text" id="name" name="name">
+            </div>
+            <div class="input">
+                <label for="teliphoneNumber">*Tel</label>
+                <input type="tel" class="input1"   id="teliphoneNumber" name="teliphoneNumber">
+            </div>
+           
+        </div>
+        <div class="first">
+            <div class="input">
+                <label for="Address">*Address</label>
+                <input type="text" class="input1"  id="Address" name="Address">
+            </div>
+            <div class="input">
+                <label for="email">*Email</label>
+                <input type="email" class="input1"   id="email" name="email">
+            </div>
+        </div>
+        <div class="first">
+            <div class="input">
+                <label for="towncity">*TownCity</label>
+                <input type="text" class="input1"  id="towncity" name="towncity">
+            </div>    
+        </div>
+        <div class="first">
+            <div class="input">
+                <label for="pincode">*Pincode</label>
+                <input type="tel" class="input1" id="pincode" name="pincode">
+            </div>    
+        </div>
+
+        <h3>* Required fields</h3>
+
+        <div class="second">
+            <div class="input2">
+                <h3 id="heading">Topping</h3>
+
+                <div class="radio" >
+                <input type="radio" id="magenta" name="radio">
+                <label for="magenta">Margherita</label>
+                </div>
+                <div class="radio" >
+                <input type="radio" id="FourSeason" name="radio">
+                <label for="FourSeason">Four Seasons</label>
+                </div>
+                <div class="radio" >
+                <input type="radio" id="meta" name="radio">
+                <label for="meta">Meat Feast</label>
+                </div>
+            </div>
+
+            <div class="input2">
+                <h3 id="heading">Size</h3>
+                <div class="radio" >
+                <input type="radio" id="Size" name="radio">
+                <label for="Size">Small</label>
+                </div>
+                <div class="radio" >
+                <input type="radio" id="Size" name="radio">
+                <label for="Size">Medium</label>
+                </div>
+                <div class="radio" >
+                <input type="radio" id="Size" name="radio">
+                <label for="Size">Large</label>
+                </div>
+
+            </div>
+            <div class="input2">
+                <h3 id="heading">Extra</h3>
+                <div class="radio" >
+                    <input type="checkbox" name="checkbox">
+                    <label for="">Mushrooms</label>
+                    </div>
+                    <div class="radio" >
+                    <input type="checkbox" id="green" name="checkbox">
+                    <label for="green">Green peppers</label>
+                    </div>
+                    <div class="radio" >
+                    <input type="checkbox" id="Anchovies" name="checkbox">
+                    <label for="Anchovies">Anchovies</label>
+                    </div>
+                    <div class="radio" >
+                    <input type="checkbox" id="cheese" name="checkbox">
+                    <label for="cheese">Extra Cheese</label>
+                </div>
+            </div>
+        </div>
+        <div class="third">
+            <div >
+                <label for="calander">Preferred delivery time</label>
+                <input type="time" class="input3" name="calander">
+            </div>
+            <div >
+            <label for="instr">Delivery instruction:</label>
+            <!-- <input type="textarea" name="" id="" class="input3"> -->
+             <textarea name="instr" id="instr maxlength=1000 " class="input4" ></textarea>
+            </div>
+
+            <div class="submit">
+                <button>Submit order</button>
+            </div>
+
+        </div>
+    </form>
+</body>
+</html>
